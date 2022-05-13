@@ -111,3 +111,64 @@ label{
     font-size: 34px;
     color: #fff;
 }
+/* animation */
+/* slider image */
+
+#input_1:checked ~ .mem-container .wrapper{
+    margin-left: 0%;
+}
+#input_2:checked ~ .mem-container .wrapper{
+    margin-left: -100%;
+}
+#input_3:checked ~ .mem-container .wrapper{
+    margin-left: -200%;
+}
+#input_4:checked ~ .mem-container .wrapper{
+    margin-left: -300%;
+}
+#input_5:checked ~ .mem-container .wrapper{
+    margin-left: -400%;
+}
+
+/* slider text */
+#input_1:checked ~ .text-container .text-wrapper{
+    margin-left: 0;
+}
+#input_2:checked ~ .text-container .text-wrapper{
+    margin-left: -100%;
+}
+#input_3:checked ~ .text-container .text-wrapper{
+    margin-left: -200%;
+}
+#input_4:checked ~ .text-container .text-wrapper{
+    margin-left: -300%;
+}
+#input_5:checked ~ .text-container .text-wrapper{
+    margin-left: -400%;
+}
+label:hover {
+    cursor: pointer;
+}
+label:hover div {
+    background-color: rgb(144, 190, 236);
+}
+
+#input_1:checked ~ .mem-slider .label_1 div,
+#input_2:checked ~ .mem-slider .label_2 div,
+#input_3:checked ~ .mem-slider .label_3 div,
+#input_4:checked ~ .mem-slider .label_4 div,
+#input_5:checked ~ .mem-slider .label_5 div 
+{
+	background: transparent;
+    width: 90%;
+    border: 0.2vh solid rgb(73, 167, 255);
+}
+
+#input_1:checked ~ .mem-slider .label_1:hover div,
+#input_2:checked ~ .mem-slider .label_2:hover div,
+#input_3:checked ~ .mem-slider .label_3:hover div,
+#input_4:checked ~ .mem-slider .label_4:hover div,
+#input_5:checked ~ .mem-slider .label_5:hover div 
+{
+    border-color: rgb(246, 242, 242);
+}
