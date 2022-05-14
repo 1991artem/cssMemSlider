@@ -172,6 +172,14 @@ label:hover div {
 {
     border-color: rgb(246, 242, 242);
 }
+#input_1:active ~ .mem-slider .label_1 div,
+#input_2:active ~ .mem-slider .label_2 div,
+#input_3:active ~ .mem-slider .label_3 div,
+#input_4:active ~ .mem-slider .label_4 div,
+#input_5:active ~ .mem-slider .label_5 div 
+{
+    background-color: rgb(106, 150, 243);
+}
 
 @media screen and (min-width: 991px){
     .conteiner{
@@ -179,26 +187,6 @@ label:hover div {
         height: 993px;
     }
 }
-/* @media screen and (max-width: 1199px) and (min-width: 991px){
-    .conteiner{
-        width: 1100px;
-        height: 1100px;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-    .mem-slider{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .text-container{
-        width: 98%;
-        height: 10%;
-        order: 1;
-    }
-    .text-container{
-        order: 2;
-    }
-} */
 @media screen and (max-width: 990px) and (min-width: 768px){
     .conteiner{
         width: 850px;
