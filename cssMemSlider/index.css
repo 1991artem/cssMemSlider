@@ -108,6 +108,7 @@ label{
 .text-container > .text-wrapper > p {
     width: 20%;
     height: 100%;
+    padding-left: 1%;
     font-family: Georgia;
     font-size: 34px;
     color: #fff;
