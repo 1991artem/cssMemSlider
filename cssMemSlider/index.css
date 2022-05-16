@@ -183,8 +183,8 @@ label:hover div {
 
 @media screen and (min-width: 991px){
     .conteiner{
-        width: 1079px;
-        height: 993px;
+        width: 100vh;
+        height: 100vh;
     }
 }
 @media screen and (max-width: 990px) and (min-width: 768px){
