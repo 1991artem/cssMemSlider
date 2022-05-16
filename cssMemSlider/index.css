@@ -190,8 +190,8 @@ label:hover div {
 }
 @media screen and (max-width: 990px) and (min-width: 768px){
     .conteiner{
-        width: 850px;
-        height: 850px;
+        width: 100vh;
+        height: 100vh;
     }
     .mem-slider{
         margin-left: auto;
